@@ -174,6 +174,13 @@ main {
     text-align: center;
 }
 
+.see-more{
+    text-align: right;
+    color: rgba(224, 44, 109, 0.87);
+    font-weight: 700;
+    font-family: "Poppins";
+}
+
 .footer {
     justify-content: center;
     align-items: center;
@@ -200,6 +207,28 @@ main {
 .icons {
     justify-content: center;
     gap: 5px;
+}
+.featured-texts> p{
+    color: rgb(108, 108, 108);
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+}
+.featured-texts> h4{
+    color: rgb(10, 8, 38);
+    font-family: "Poppins", sans-serif;
+    font-size: 2.3rem;
+    font-weight: 700;
+    margin: 0;
+}
+.featured-texts> .btn{
+    border-radius: 2px;
+}
+.featured{
+    justify-content: space-between;
+    align-items: center;
+    gap: 96px;
+    margin-bottom: 100px;
+    margin-top: 100px;
 }
 
 @media screen and (max-width:576px) {
@@ -239,6 +268,12 @@ main {
     }
 
     .collection-card img {
+        width: 100%;
+    }
+    .featured{
+        flex-direction: column;
+    }
+    .featured-img img{
         width: 100%;
     }
 }
